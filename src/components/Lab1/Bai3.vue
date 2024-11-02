@@ -6,7 +6,7 @@
         <nav class="navbar navbar-expand-sm navbar-dark">
           <div class="container">
             <a class="navbar-brand" href="Lab3Index.html">
-              <img src="../assets/logo.png" alt="" style="width: 150px" />
+              <img src="/assets/logo.png" alt="" style="width: 150px" />
             </a>
             <button
               class="navbar-toggler"
@@ -72,10 +72,10 @@
           <div class="col-sm-4">
             <h2 class="text-info mb-3">Về tôi</h2>
             <div class="card blog">
-              <img src="../assets/anh1.jpg" class="card-img-top" alt="..." />
+              <img src="/assets/anhnr.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Huynh Le Ngoc Thang</h5>
-                <p class="card-text">MSSV:PY00113</p>
+                <h5 class="card-title">Nguyen Thanh Duc</h5>
+                <p class="card-text">MSSV:PY00091</p>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
               <div class="col-md-6">
                 <div class="card">
                   <img
-                    src="../assets/anh1.jpg"
+                    src="/assets/anhnr.jpg"
                     class="card-img-top"
                     alt="Pilates exercise"
                   />
