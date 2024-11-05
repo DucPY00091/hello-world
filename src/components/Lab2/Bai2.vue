@@ -11,6 +11,7 @@
     </button>
   </div>
 
+  <!-- Modal Structure -->
   <div
     class="modal fade"
     id="myModal"
@@ -29,8 +30,9 @@
             aria-label="Close"
           ></button>
         </div>
+        
         <div class="modal-body">
-       
+          <!-- Nav Tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" data-bs-toggle="tab" href="#register">Đăng Ký</a>
@@ -45,22 +47,28 @@
             <div id="register" class="tab-pane active">
               <div class="card p-4">
                 <h5 class="card-title">Form Đăng Ký Thông Tin</h5>
-                <form>
+                <form class="was-validated">
                   <div class="mb-3">
-                    <label for="name" class="form-label">Họ và Tên</label>
-                    <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên" />
+                    <label for="uname" class="form-label">Họ và Tên</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Nhập họ tên" required />
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                   </div>
                   <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Nhập email" />
+                    <input type="email" class="form-control" id="email" placeholder="Nhập email" required />
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                   </div>
                   <div class="mb-3">
                     <label for="phone" class="form-label">Số Điện Thoại</label>
                     <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại" />
                   </div>
                   <div class="mb-3">
-                    <label for="password" class="form-label">Mật Khẩu</label>
-                    <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu" />
+                    <label for="pwd" class="form-label">Mật Khẩu</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Nhập mật khẩu" required />
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                   </div>
                   <div class="mb-3">
                     <label for="confirm-password" class="form-label">Xác Nhận Mật Khẩu</label>
@@ -69,7 +77,7 @@
                   <div class="mb-3">
                     <label class="form-label">Giới Tính:</label>
                     <div>
-<div class="form-check form-check-inline">
+                      <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="gender" id="male" value="Nam" />
                         <label class="form-check-label" for="male">Nam</label>
                       </div>
@@ -88,26 +96,32 @@
                     </select>
                   </div>
                   <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="terms" />
+                    <input type="checkbox" class="form-check-input" id="terms" required />
                     <label class="form-check-label" for="terms">Tôi đồng ý với các điều khoản và điều kiện</label>
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Tick vào hộp thoại để xác nhận</div>
                   </div>
                   <button type="submit" class="btn btn-primary">Đăng Ký</button>
                 </form>
               </div>
             </div>
 
-           
+            <!-- Login Form Tab -->
             <div id="login" class="tab-pane fade">
               <div class="card p-4">
                 <h5 class="card-title">Form Đăng Nhập</h5>
-                <form>
+                <form class="was-validated">
                   <div class="mb-3">
                     <label for="login-email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="login-email" placeholder="Nhập email" />
+                    <input type="email" class="form-control" id="login-email" placeholder="Nhập email" required />
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                   </div>
                   <div class="mb-3">
                     <label for="login-password" class="form-label">Mật Khẩu</label>
-                    <input type="password" class="form-control" id="login-password" placeholder="Nhập mật khẩu" />
+                    <input type="password" class="form-control" id="login-password" placeholder="Nhập mật khẩu" required />
+                    <div class="valid-feedback">Hợp lệ</div>
+                    <div class="invalid-feedback">Vui lòng điền vào trường này</div>
                   </div>
                   <button type="submit" class="btn btn-primary">Đăng Nhập</button>
                 </form>
