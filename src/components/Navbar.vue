@@ -32,10 +32,10 @@
           LAB2
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/Lab1/B1">Bai1</a></li>
-          <li><a class="dropdown-item" href="/Lab1/B2">Bai2</a></li>
+          <li><a class="dropdown-item" href="/Lab2/Bai1">Bai1</a></li>
+         <li><a class="dropdown-item" href="/Lab2/Bai2">Bai2</a></li>
 
-          <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li>
+          <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
         </ul>
       </li>
       <li class="nav-item"> 
