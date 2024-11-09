@@ -5,6 +5,11 @@ import { createRouter, createWebHistory } from 'vue-router';
  import Bai3 from '../components/Lab1/Bai3.vue';
  import Bai4 from '../components/Lab2/Bai1.vue';
  import Bai5 from '../components/Lab2/Bai2.vue';
+ import Lab3Bai1 from '../components/Lab3/Bai1.vue';
+ import Lab3Bai2 from '../components/Lab3/Bai2.vue';
+ import Lab3Bai3 from '../components/Lab3/Bai3.vue';
+ import Lab3Bai4 from '../components/Lab3/Bai4.vue';
+
 
 
 
@@ -20,6 +25,11 @@ const routes = [
      //lab2
      { path: '/Lab2/Bai1', component: Bai4 },
      { path: '/Lab2/Bai2', component: Bai5 },
+     //lab3
+     { path: '/Lab3/Bai1', component: Lab3Bai1 },
+     { path: '/Lab3/Bai2', component: Lab3Bai2 },
+     { path: '/Lab3/Bai3', component: Lab3Bai3 },
+     { path: '/Lab3/Bai4', component: Lab3Bai4 },
 
 
     // { path: '/Lab1/b1', component: Lab1 },

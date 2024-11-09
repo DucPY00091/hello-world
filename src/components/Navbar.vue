@@ -34,6 +34,20 @@
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="/Lab2/Bai1">Bai1</a></li>
          <li><a class="dropdown-item" href="/Lab2/Bai2">Bai2</a></li>
+         
+
+          <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          LAB3
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/Lab3/Bai1">Bai1</a></li>
+         <li><a class="dropdown-item" href="/Lab3/Bai2">Bai2</a></li>
+         <li><a class="dropdown-item" href="/Lab3/Bai3">Bai3</a></li>
+         <li><a class="dropdown-item" href="/Lab3/Bai4">Bai4</a></li>
 
           <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
         </ul>
