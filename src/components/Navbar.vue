@@ -52,6 +52,37 @@
           <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
         </ul>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          LAB5
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/Lab5/Bai1">Bai1</a></li>
+          <li><a class="dropdown-item" href="/Lab5/Bai2">Bai2</a></li>
+          <li><a class="dropdown-item" href="/Lab5/Bai3">Bai3</a></li>
+         
+
+          <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          LAB6
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/Lab6/Bai1">Bai1</a></li>
+          <li><a class="dropdown-item" href="/Lab6/Bai22">Bai2</a></li>
+          <li><a class="dropdown-item" href="/Lab6/Bai33">Bai3</a></li>
+          <li><a class="dropdown-item" href="/Lab6/Bai4">Bai4</a></li>
+         
+
+          <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
+        </ul>
+      </li>
+
+      
+      
       <li class="nav-item"> 
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
       </li>
