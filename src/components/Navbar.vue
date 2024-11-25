@@ -61,6 +61,7 @@
           <li><a class="dropdown-item" href="/Lab5/Bai1">Bai1</a></li>
           <li><a class="dropdown-item" href="/Lab5/Bai2">Bai2</a></li>
           <li><a class="dropdown-item" href="/Lab5/Bai3">Bai3</a></li>
+          <li><a class="dropdown-item" href="/Lab5/App">Bai4</a></li>
          
 
           <!-- <li><a class="dropdown-item" href="/Lab1/B3">Bai3</a></li> -->
